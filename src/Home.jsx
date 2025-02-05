@@ -4,7 +4,8 @@ import Gallery from './components/Gallery'
 export default function Home() {
   return (
     <main>
-      <BusinessCard />
+      <BusinessCard name={"Jamie Tang"} email={"jft75@cornell.edu"} />
+      <BusinessCard name={"Taylor Swift"} email={"ts13@cornell.edu"} />
 
       <Gallery />
 
